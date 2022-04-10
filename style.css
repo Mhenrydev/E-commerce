@@ -1,0 +1,148 @@
+
+body{
+	    font-family: 'Open Sans', sans-serif;
+	    margin: 0px;
+	    padding:  0px;
+}
+
+/*Barre de Navigation*/
+
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #fff;
+	position: sticky;
+	top: 5px;
+}
+
+nav h1{
+	font-size: 25px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+span.logo{
+	font-size: 40px;
+	color: aqua;
+	font-weight: bold;
+}
+
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: transparent;
+}
+
+nav .onglets form input{
+	margin-top: 17px;
+}
+
+nav .onglets p{
+	display: flex;
+	font-size: 17px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: transparent;
+	margin: auto;
+	padding: 10px;
+}
+
+nav .onglets p:hover{
+	background-color: rgb(0, 0, 0,0.5);
+	color: #fff;
+	transition: 0.2s;
+
+}
+
+nav .onglets input{
+	margin: 8px 20px;
+	padding: 15px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background-color: #f2f2f2;
+}
+
+/*Fin de la barre de naviagtion*/
+
+/*Header*/
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+header h1{
+	font-size: 50px;
+	max-width: 600px;
+	text-align: center;
+}
+
+header button{
+	padding: 15px 20px;
+	font-size: 20px ;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+
+}
+
+/*Fin de header */
+
+/* Section principale */
+.main{
+	
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+/*Toute les cartes*/
+.cards{
+	display: flex;
+	background-color: ;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	align-content: center ;
+
+}
+
+.cards .card{
+	padding-top: 20px;
+	cursor: pointer;
+	margin: auto;
+
+	
+}
+
+.cards .card img{
+	width: 310px;
+}
+
+.cards .card .card-header{
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+
+h4.price{
+	margin-left: 45px;
+}
+
+.cards .card .card-body p{
+	margin-top: -10px;
+}
+
+/*Fin des cartes*/
+
+/* Fin de section principale */
+
